@@ -14,9 +14,9 @@ A simple example
 	// 1. Set options
 	$options = array();
 	$options['api_host'] = 'http://sms3.pswin.com/sms'; // set the host default is `http://sms.pswin.com/sms` 
-	$options['username']     = "your_username";
-    $options['password']     = "your_password";
-    $options['sender']       = "SenderName/PhoneNumber";
+	$options['username'] = "your_username";
+    $options['password'] = "your_password";
+    $options['sender']   = "SenderName/PhoneNumber";
 
 	// 2. Create a new instance
 	$pswin = new PSWinCom($options); 
@@ -46,7 +46,7 @@ And then run `php bin/vendors install --reinstall`
 
 ### Autoloading
 
-Append the followingto your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
+Append the following to your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
 
 	$loader->registerNamespaces(array(			
 		…
