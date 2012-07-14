@@ -18,10 +18,8 @@ A simple example
     $options['password']     = "your_password";
     $options['sender']       = "SenderName/PhoneNumber";
 
-
 	// 2. Create a new instance
 	$pswin = new PSWinCom($options); 
-
 	
 	// 3. Send sms
 	$phone   = '4712345678';
@@ -48,9 +46,9 @@ And then run `php bin/vendors install --reinstall`
 
 ### Autoloading
 
-Append the followingto your `app/autoload.php` file to make sure the `SimpleExcel` namespace gets registered.
+Append the followingto your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
 
 	$loader->registerNamespaces(array(			
 		…
-		'SimpleExcel' => __DIR__.'/../vendor/pswincom/src/', // required to use the SimpleExcel library
+		'PSWinCom' => __DIR__.'/../vendor/pswincom/src/', // required to use the PSWinCom library
 	));
