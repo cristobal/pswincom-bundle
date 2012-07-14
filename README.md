@@ -46,7 +46,7 @@ And then run `php bin/vendors install --reinstall`
 
 ### Autoloading
 
-Append the followingto your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
+Append the following to your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
 
 	$loader->registerNamespaces(array(			
 		…
