@@ -39,14 +39,14 @@ A simple example
 Add the following to you deps file.
 
 	[PSWinCom]
-	    git=http://github.com/cristobal/pwwincom-bundle
-	    target=pwwincom
+	    git=http://github.com/cristobal/pswincom-bundle
+	    target=pswincom
 
 And then run `php bin/vendors install --reinstall`
 
 ### Autoloading
 
-Append the following to your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
+Append the followingto your `app/autoload.php` file to make sure the `PSWinCom` namespace gets registered.
 
 	$loader->registerNamespaces(array(			
 		…
