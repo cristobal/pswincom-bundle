@@ -123,8 +123,8 @@ class PSWinCom
 		curl_setopt ($ch, CURLOPT_FOLLOWLOCATION, false);
 		curl_setopt ($ch, CURLOPT_MAXREDIRS, 10);
 
-	    // curl_setopt($ch, CURLINFO_HEADER_OUT, true);
-	    curl_setopt ($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+	        // curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+	        curl_setopt ($ch, CURLOPT_CUSTOMREQUEST, 'POST');
 		curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
 
 		// curl_setopt ($ch, CURLOPT_POST, count($params));
@@ -133,7 +133,7 @@ class PSWinCom
 		$content_type   = "text/xml";
 		$content_length = strlen($xml);
 		
-		error_log($xml);
+		// error_log($xml);
 
 		$headers[] = sprintf('Content-type: %s', $content_type);                                              
 		$headers[] = sprintf('Content-length: %d', $content_length);
