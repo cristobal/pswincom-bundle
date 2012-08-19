@@ -3,8 +3,8 @@
 /**
  * PSWinCom Bundle
  * 
- * A PHP library with simplistic approach for parsing/writing data from/to 
- * Microsoft Excel XML/CSV format
+ * PSWinCom Bundle is a minimal php port/variant of the PSWINCom ruby gem library.
+ * This library supports the minimal purpose of sending sms.
  *  
  * Copyright (c) 2011-2012 Cristobal <cristobal@dabed.org>
  *
