@@ -1,7 +1,7 @@
 {
     "name": "pswincom/pswincom-bundle",
     "type": "library",
-    "description": "Easily parse / convert / write between Microsoft Excel XML / CSV / TSV / HTML / JSON / etc formats",
+    "description": "PSWinCom Bundle is a minimal php port/variant of the PSWINCom ruby gem library. This library supports the minimal purpose of sending sms.",
     "keywords": ["sms", "pswin"],
     "homepage": "https://github.com/cristobal/pswincom-bundle",
     "repositories": [
